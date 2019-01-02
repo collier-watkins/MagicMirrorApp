@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
+import './index.css';
 
-import Counter from './components/counter';
+import App from './components/App';
 
 
-ReactDOM.render(<Counter/>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 
